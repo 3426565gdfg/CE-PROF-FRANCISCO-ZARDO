@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Colégio Prof Francisco Zardo</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="reset.css">
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="container__rotulo">
+                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">História</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Infraestrutura</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Comunidade</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Nossa Equipe</a>
+                </li>
+               
+            </ul>
+            
+            <h1 class="container__titulo"><b class="container__titulo--negrito"> </b>CE Professor Francisco Zardo</h1>
+          
+        </div>
+
+        <ul class="opções">
+            <input type="checkbox" id="opções-menu" class="opções__botão">
+            <label for="opções-menu" class="opções__rotulo">
+                <li class="opções__item">Categorias</li>
+            </label>
+
+            <ul class="lista-menu">
+
+                
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Nossa Equipe</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Infraestrutura</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Comunidade</a>
+                </li>
+            </ul>
+
+            <div class="container">
+                <a href="#"><img src="https://raw.githubusercontent.com/alura-cursos/alurabooks/4db5a79bb8aaf242faccfbe63a1954b8fbc5c9ec/img/Favoritos.svg" alt="Meus favoritos"
+                        class="container__imagem container__imagem-transparente"></a>
+               
+                <a href="https://www.instagram.com/colegio_zardo/" class="container__link">
+                    <img src="INSTAZARDO.png" width="20px" height="20px" alt="Meu perfil" class="container__imagem">
+                    <p class="container__texto">Meu perfil</p>
+                </a>
+            </div>
+        </header>
+        <section class="banner">
+           <p><img src="ABERTURA.JPEG" height="300px" width="370px"></p>
+            <p class="banner__texto">Bem-Vindo ao Colégio Estadual Professor Francisco Zardo</p>
+           
+            <input type="search" class="banner__pesquisa" placeholder="Procure Informações!">
+        </section>
+        <section class="carrossel">
+            
+            <!-- Slider main container -->
+            <div class="carrossel__container">
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+    
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                     <ul class="tópicos__lista"></ul>
+                        <div class="swiper-slide"> 
+                           
+                            <li class="tópicos__item"> <img src="ZARDO1.jpg" height="190px" width="100px" class="fotitas"
+                                alt="Café da Manhã"> </li></div>
+    
+    
+                        <div class="swiper-slide">
+                            <li class="tópicos__item"><img src="ZARDO2.jpg" height="190px" width="100px"
+                                 class= "fotitas"> </li></div>
+                        <div class="swiper-slide">
+                            <li class="tópicos__item"><img src="ZARDO3.jpg" height="190px" width="100px class="fotitas"></li></div>
+                        <div class="swiper-slide"> <li class="tópicos__item"><img src="ZARDO4.jpg"  height="190px" width="100px class="fotitas"></li></div>
+                        <div class="swiper-slide"> <li class="tópicos__item"><img src="ZARDO5.jpg" height="190px" width="100px  class="fotitas">  </li></div>
+                        
+                    </div>
+    
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </ul>
+                <div class="card">
+                    <!-- 1º linha -->
+                    <div class="card__descrição">
+                        <!-- 1º coluna -->
+                        <div class="descrição">
+                            <h3 class="descrição__titulo">História</h3>
+                            <h2 class="descrição__titulo-livro"></h2>
+                            <p class="descrição__texto">O prédio original do Colégio Francisco Zardo foi construído em 1943 e passou por uma ampliação em 1980. Hoje a escola é composta por oito blocos, com 2.943 metros quadrados de área construída. Nesses setenta anos, o colégio se consolidou como referência de ensino para vários bairros da Capital e de municípios da Região Metropolitana, entre eles Campo Magro e Campo Largo.
+                            </p>
+                        </div>
+                        <!-- 2º coluna -->
+                        <img src="ZARDO6.JPG" width="40%" height="35%" class="descrição__imagem">
+                    </div>
+    
+                    <!-- 2º linha -->
+                    <div class="card__botões">
+                        <!-- 1º coluna -->
+                        <ul class="botões">
+                            <li class="botões__item"><img src="https://raw.githubusercontent.com/alura-cursos/alurabooks/4db5a79bb8aaf242faccfbe63a1954b8fbc5c9ec/img/Favoritos.svg" alt="Favoritar livro"></li>
+                            
+                        </ul>
+                        <!-- 2º coluna -->
+                        <a href="https://www.educacao.pr.gov.br/Noticia/Tradicional-escola-de-Curitiba-e-ampliada#:~:text=HIST%C3%93RICO%20%E2%80%93%20O%20pr%C3%A9dio%20original%20do,metros%20quadrados%20de%20%C3%A1rea%20constru%C3%ADda." class="botões__ancora">Veja Mais Aqui!</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        
+                <div class="card">
+                    <!-- 1º linha -->
+                    <div class="card__descrição">
+                        <!-- 1º coluna -->
+                        <div class="descrição">
+                            
+                            <h3 class="descrição__titulo">Localização</h3>
+                            <h2 class="descrição__titulo-livro">Av. Manoel Ribas, 7149 - Santa Felicidade, Curitiba - PR, 82400-000</h2>
+                            <p class="descrição__texto">São atendidos alunos tanto para o ensino fundamental quanto para o ensino médio, e a escola também possue atendimento educacional especializado.
+                                O colégio também possui cursos técnicos como administração, informática e meio ambiente. Além de atividades complementares como: Programa mais aprendizagem, Aluno monitor e treinamento esportivo.
+                            </p>
+                           
+                        </div>
+                        <!-- 2º coluna -->
+                        <img src="zardo7.jpg" width="160px" height="170px" class="descrição__imagem">
+                    </div>
+    
+                    <!-- 2º linha -->
+                    <div class="card__botões">
+                        <!-- 1º coluna -->
+                        <ul class="botões">
+                            <li class="botões__item"><img src="https://raw.githubusercontent.com/alura-cursos/alurabooks/4db5a79bb8aaf242faccfbe63a1954b8fbc5c9ec/img/Favoritos.svg" alt="Favoritar livro"></li>
+    
+                        </ul>
+                        <!-- 2º coluna -->
+                        <a href="https://aluno.escoladigital.pr.gov.br/Idiomas/Endereco/FRANCISCO-ZARDO-C-E-PROF-EF-M-PROFIS" class="botões__ancora">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="tópicos">
+            <h2 class="tópicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+            <ul class="tópicos__lista">
+                <li class="tópicos__item">
+                    <a href="https://www.educacao.pr.gov.br/Noticia/Aulas-de-treinamento-incentivam-pratica-de-esportes" class="tópicos__link">Esportes</a>
+                </li>
+                
+            </ul>
+        </section>
+    
+        <section class="contato">
+            <div class="contato__descrição">
+                <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+                <p class="contato__texto">Atualizações de vagas, projetos, vídeo aulas e outros.</p>
+            </div>
+            <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
+        </section>
+    
+        <hr/>
+        <footer class="rodapé">
+
+
+
+            <h2 class=”rodape__titulo>Colégio Estadual Francisco Zardo</h2>
+            <ul class="lista-rodapé">
+                <li class="lista-rodapé__titulo">Educação</li>
+    
+      
+    
+            
+    
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                spaceBetween: 10,
+                slidesPerView: 3,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'bullets',
+                },
+            });
+        </script>
+    </body>
+    
+    </html>
